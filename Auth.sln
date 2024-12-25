@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{B4BAB07A-8A28-4208-B3E2-2D0677414A60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth.BusinessLogic", "Auth.BusinessLogic\Auth.BusinessLogic.csproj", "{5A62AC94-4B90-4A49-8C9C-61A30C19C697}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth.Persistence", "Auth.Persistence\Auth.Persistence.csproj", "{5F155289-36E0-405D-B951-7CDD94574C1E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4BAB07A-8A28-4208-B3E2-2D0677414A60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4BAB07A-8A28-4208-B3E2-2D0677414A60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4BAB07A-8A28-4208-B3E2-2D0677414A60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4BAB07A-8A28-4208-B3E2-2D0677414A60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A62AC94-4B90-4A49-8C9C-61A30C19C697}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A62AC94-4B90-4A49-8C9C-61A30C19C697}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A62AC94-4B90-4A49-8C9C-61A30C19C697}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A62AC94-4B90-4A49-8C9C-61A30C19C697}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F155289-36E0-405D-B951-7CDD94574C1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F155289-36E0-405D-B951-7CDD94574C1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F155289-36E0-405D-B951-7CDD94574C1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F155289-36E0-405D-B951-7CDD94574C1E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
