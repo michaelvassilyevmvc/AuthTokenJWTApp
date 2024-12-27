@@ -1,4 +1,5 @@
 ﻿using Auth.BusinessLogic;
+using Microsoft.AspNetCore.Identity.Data;
 using Microsoft.AspNetCore.Mvc;
 using WebApplication1.Models;
 
@@ -14,10 +15,10 @@ public class AuthController(AccountService accountService): ControllerBase
     }
 
     [HttpPost("login")]
-    public IActionResult Login(string userName, string password)
+    public IActionResult Login([FromBody] LoginRequest loginRequest)
     {
         // implement token
-
-        return Ok();
+        var token = accountService.Login(loginRequest.Email, loginRequest.Password);
+        return Ok(token);
     }
 }
